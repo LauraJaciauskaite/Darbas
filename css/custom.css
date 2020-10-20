@@ -1,0 +1,147 @@
+header{
+	height:800px;
+	background-image: url('../img/header.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nav{
+	display:flex;
+	justify-content: center;
+}
+.nav li a{
+	text-decoration: none;
+	color: black;
+	position: relative;
+	top:40px;
+}
+.nav li{
+	margin:15px;
+}
+@media (max-width: 576px) {
+	.logo{
+		width:10px;
+		height:10px;
+		position:relative;
+		bottom:85px;
+		left:100px;
+	}
+	.nav-item{
+		width:100%;
+	}
+	.nav li{
+		margin:3px 3px;
+	}
+	header{
+		background-size: contain;
+		height:250px;
+		width:500px;
+	}
+}
+	.introduction i, h2{
+		display:flex;
+		justify-content:center;
+		padding:15px;
+		
+	}
+	.introduction i{
+		padding-top:120px;
+	}
+	.introduction h2{
+		font-family: Lucida Console, Courier, monospace;
+	}
+	.introduction p{
+		text-align:center;
+		margin:0 15px;
+		font-family: Lucida Console, Courier, monospace;
+		color: #999ea8;
+	}
+	.introduction{
+		background-color: #f2f2eb;
+		height:400px;
+	}
+	
+	@media (max-width: 576px) {
+		.icon1{
+			position:relative;
+			bottom:100px;
+		}
+		h2{
+			position:relative;
+			bottom:80px;
+			font-size:20px;
+		}
+		p{
+			position:relative;
+			bottom:50px;
+			margin:5px 5px;
+		}
+	}
+	.row{
+		height:600px;
+	}
+	}
+	.text i{
+    	display: block;
+	}
+	.bike{
+	background:url("../img/bike2.jpg");
+	background-size:cover;
+	}
+	.bike1{
+	height:180px;
+	max-width:none;
+	background:url("../img/bike1.jpg");
+	background-size:cover;
+	}
+	.bike3{
+	background:url("../img/bike3.jpg");
+	background-size:cover;
+	height:180px;
+	max-width:none;
+	}
+	.bike4{
+	background:url("../img/bike4.jpg");
+	background-size:cover;
+	}
+	.bike5{
+		background:url("../img/bike5.jpg");
+		background-size:cover;
+	}
+	.bike6{
+	height:180px;
+	max-width:none;
+	background:url("../img/bike6.jpg");
+	background-size:cover;
+	}
+	.bike7{
+		background:url("../img/bike7.jpg");
+		background-size:cover;
+	}
+	.vintage,.boriosa,.retrobike{
+		padding:0;
+		padding-top:219px;
+
+	}
+	.text{
+		text-align: center;
+		position: relative;
+		bottom:100px;
+	}
+	.slideshow{
+		height:200px;
+		padding-top:50px;
+	}
+	.carousel-item{
+		height:200px;
+	}
+	.container{
+		text-align: center;
+		padding-top:50px;
+	}
+	.newyork{
+		background-color: #f2f2eb;
+	}
+	.twoimages{
+		display:flex;
+		direction:row;
+	}
